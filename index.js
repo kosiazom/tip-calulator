@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function formatMoney(value){
-    console.log(value)
+
 
     value = Math.ceil(value * 100) / 100
     console.log(value)
